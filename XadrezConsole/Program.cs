@@ -18,7 +18,6 @@ namespace XadrezConsole
                     {
                         Console.Clear();
                         Tela.imprimirPartida(partida);
-                        ;
 
                         Console.WriteLine();
                         Console.Write("Origem: ");
@@ -41,10 +40,10 @@ namespace XadrezConsole
                         Console.WriteLine(e.Message);
                         Console.ReadLine();
                     }
-                   
-
                 }
-                
+                Console.Clear();
+                Tela.imprimirPartida(partida);
+
             }
             catch(TabuleiroException e)
             {
